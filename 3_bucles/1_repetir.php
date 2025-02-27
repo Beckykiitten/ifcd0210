@@ -4,6 +4,6 @@
 
 for ($hola = 1; $hola <=10; $hola++){
 
-    echo "Hola mundo ";
+    echo "<h2>Hola mundo</h2><br> ";
 }
 
