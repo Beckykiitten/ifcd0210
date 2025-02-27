@@ -9,6 +9,6 @@ $agenda = ["Victor"=> 6657843, "Jose"=> 6678237, "Enol"=> 6689872,];
 var_dump($agenda);
 echo ("<br>");
 
-foreach ($agenda as $key => $value) {
-    echo ($key . " tiene el número " . $value . "<br>");
+foreach ($agenda as $nombre => $numero) {
+    echo ($nombre . " tiene el número " . $numero . "<br>");
 }
